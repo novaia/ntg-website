@@ -1,68 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-    body {
-        background-color: rgb(157, 200, 235);
-    }
-
-    h1 {
-        color: rgb(255, 255, 255);
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    iframe {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    p {
-        color: rgb(255, 255, 255);
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 17px;
-        text-align: center;
-    }
-
-    .container {
-        max-width: 800px;
-        margin: 0 auto; /* this centers the container horizontally */
-        display: flex; /* this makes the container a flexbox */
-        justify-content: center; /* this centers the flex items horizontally */
-        align-items: center; /* this centers the flex items vertically */
-    }
-
-    .flexbox {
-        display: flex; /* this makes the flexbox a flex container */
-        flex-wrap: wrap; /* this allows the flex items to wrap to the next line */
-        justify-content: center; /* this centers the flex items horizontally */
-    }
-
-    .flexbox img {
-        width: 100%; /* this makes the images responsive */
-        height: auto; /* this preserves the aspect ratio of the images */
-        max-width: 300px; /* this limits the maximum width of the images */
-        margin: 5px; /* this adds some margin around the images */
-    }
-    </style>
+    <meta name="author" content="Hayden Donnelly">
+    <meta name="title" content="Neural Terrain Generation">
+    <title>Neural Terrain Generation</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Neural Terrain Generation</h1>
 
     <div class="flexbox">
-        <img src="https://source.unsplash.com/random/300x200?nature" alt="Nature image">
-        <img src="https://source.unsplash.com/random/300x200?animal" alt="Animal image">
-        <img src="https://source.unsplash.com/random/300x200?flower" alt="Flower image">
+        <img src="./images/terrain_02.png" alt="3D terrain image 1">
+        <img src="./images/terrain_01.png" alt="3D terrain image 2">
+        <img src="./images/terrain_03.png" alt="3D terrain image 3">
     </div>
 
     <div class="container">
     <p>
-        Neural Terrain Generation is an innovative Unity asset that uses a diffusion-based 
-        neural network to generate lifelike 3D terrain. With this asset, you can create stunning 
+        Neural Terrain Generation is a tool that uses a diffusion-based 
+        neural network to generate lifelike 3D terrain. With this tool, you can create stunning 
         landscapes that are both realistic and unique. Whether you’re building a game or creating 
         a virtual world, Neural Terrain Generation makes it easy to add beautiful terrain to your project.
     </p>
     </div>
+
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/MZakPuXyquk?modestbranding=1"
+        frameborder="0" 
+        allowfullscreen
+    ></iframe>
 </body>
 </html>
