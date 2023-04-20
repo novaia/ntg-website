@@ -52,3 +52,7 @@ p {
     max-width: 300px; /* this limits the maximum width of the images */
     margin: 5px; /* this adds some margin around the images */
 }
+
+.brush-gif {
+    width: 400px;
+}
